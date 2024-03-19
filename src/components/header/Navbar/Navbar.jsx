@@ -17,7 +17,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-[#FFFFFFE5] max-w-screen-xl mx-auto py-5">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -38,7 +38,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-lg font-medium"
           >
             {navMenu}
           </ul>
@@ -46,15 +46,19 @@ const Navbar = () => {
         <div className="flex items-center gap-2">
           <img src={logoIcon} alt="logo" />
           <p className="text-[#FFB700] text-3xl font-bold">
-            Air<span className="font-normal text-[#006CE4]">book</span>
+            Air<span className="font-normal text-[#006CE4]">Book</span>
           </p>
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{navMenu}</ul>
+        <ul className="menu menu-horizontal px-1 text-lg font-medium">
+          {navMenu}
+        </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn text-[#006CE4] text-xl font-medium">Sign in</a>
+        <a className="btn bg-[#006CE4] text-white text-xl font-medium">
+          Sign in
+        </a>
       </div>
     </div>
   );
