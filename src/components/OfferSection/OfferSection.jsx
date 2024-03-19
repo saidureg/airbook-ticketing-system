@@ -11,7 +11,11 @@ const OfferSection = () => {
         {/* first */}
         <div className="bg-base-100 shadow-xl flex items-center gap-3 rounded-lg mx-8 lg:mx-0">
           <div className="w-[235px]">
-            <img className="w-full h-full" src={offer1} alt="Offer1" />
+            <img
+              className="w-full h-full rounded-lg"
+              src={offer1}
+              alt="Offer1"
+            />
           </div>
           <div className="p-6">
             <h3 className="text-xs font-medium">With bkash payment only</h3>
@@ -23,7 +27,11 @@ const OfferSection = () => {
         {/* second */}
         <div className="bg-base-100 shadow-xl flex items-center gap-3 rounded-lg mx-8 lg:mx-0">
           <div className="w-[235px]">
-            <img className="w-full h-full" src={offer2} alt="Offer2" />
+            <img
+              className="w-full h-full rounded-lg"
+              src={offer2}
+              alt="Offer2"
+            />
           </div>
           <div className="p-6">
             <h3 className="text-xs font-medium">With bkash payment only</h3>
@@ -35,7 +43,11 @@ const OfferSection = () => {
         {/* third */}
         <div className="bg-base-100 shadow-xl flex items-center gap-3 rounded-lg mx-8 lg:mx-0">
           <div className="w-[235px]">
-            <img className="w-full h-full" src={offer3} alt="Offer3" />
+            <img
+              className="w-full h-full rounded-lg"
+              src={offer3}
+              alt="Offer3"
+            />
           </div>
           <div className="p-6">
             <h3 className="text-xs font-medium">With bkash payment only</h3>
