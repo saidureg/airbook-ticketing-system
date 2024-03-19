@@ -1,9 +1,10 @@
 import "./App.css";
+import Navbar from "./components/header/Navbar/Navbar";
 
 function App() {
   return (
     <>
-      <h1>Airbook</h1>
+      <Navbar />
     </>
   );
 }
